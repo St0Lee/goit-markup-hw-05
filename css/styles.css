@@ -917,6 +917,9 @@ img {
 .footer-subscribe-mail {
   width: 264px;
   height: 40px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   margin-left: 80px;
   padding: 8px 16px;
   background: transparent;
@@ -924,6 +927,7 @@ img {
   border: 1px solid var(--white-background);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--white-background);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .footer-subscribe-mail::placeholder {
@@ -946,8 +950,9 @@ img {
   border-radius: 4px;
   cursor: pointer;
   border: none;
-  gap: 16px;
   min-width: 165px;
+  justify-content: center;
+  align-items: center;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -955,6 +960,7 @@ img {
 
 .subscribe-button-icon {
   fill: var(--white-background);
+  margin-left: 16px;
 }
 
 .footer-subscribe-button:hover {
