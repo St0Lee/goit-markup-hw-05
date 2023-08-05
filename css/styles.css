@@ -800,10 +800,12 @@ img {
 }
 
 .modal-label {
+  display: block;
   color: var(--subtle-text);
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
+  margin-bottom: 4px;
 }
 
 .modal-input-wrap {
@@ -837,6 +839,10 @@ img {
 
 .modal-comment:focus {
   border-color: var(--primary-brand);
+}
+
+.modal-input-container {
+  position: relative;
 }
 
 .modal-check-text {
