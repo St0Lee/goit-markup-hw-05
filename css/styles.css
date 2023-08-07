@@ -837,7 +837,6 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  margin-bottom: 16px;
 }
 
 .modal-comment:focus {
@@ -858,7 +857,6 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-
   margin-bottom: 16px;
   align-items: center;
 }
@@ -951,7 +949,7 @@ img {
 }
 
 .footer-subscribe-mail::placeholder {
-  color: var(--white-background);
+  color: rgba(46, 47, 66, 0.4);
 }
 
 .footer-subscribe-button {
